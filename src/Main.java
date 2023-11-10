@@ -24,7 +24,7 @@ public class Main {
                 break;
             } else if (guess > answer) {
                 int guesses = tries - 1;
-                System.out.println("Too high! Guess lower.");
+                System.out.println("Too high! Guess lower. You have " + guesses + " guesses left!");
             } else {
                 int guesses = tries - 1;
                 System.out.println("Too low! Guess higher. You have " + guesses + " guesses left!");
