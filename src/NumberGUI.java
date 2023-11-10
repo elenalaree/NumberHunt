@@ -47,7 +47,9 @@ public class NumberGUI extends JFrame {
     private void handleGuess() {
         int userGuess = Integer.parseInt(guessField.getText());
         int remainingTries = updateTries();
-
+        if(remainingTries == 0){
+            resultLabel.setText("You ran out of tries! Dang!");
+        }
         if (numberLogic.playNumberGuessingGame(userGuess)) {
             resultLabel.setText("You got it!");
         } else {
