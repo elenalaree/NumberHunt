@@ -6,7 +6,7 @@ To run the program, a user would download the environment into a KDJ prepared en
 
 My purpose in creating a number guesser was to create a fun game for my kids to play.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Gp_AG1U1-2o)
 
 # Development Environment
 
